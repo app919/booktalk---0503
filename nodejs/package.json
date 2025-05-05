@@ -1,0 +1,9 @@
+{
+  "name": "rtc-token-server",
+  "version": "1.0.0",
+  "description": "RTC Token Server",
+  "main": "src/AccessToken.js",
+  "dependencies": {
+    "crc-32": "^1.2.2"
+  }
+}

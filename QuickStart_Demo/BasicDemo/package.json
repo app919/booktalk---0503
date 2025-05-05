@@ -1,0 +1,31 @@
+{
+  "name": "rtc-demo",
+  "version": "1.0.0",
+  "description": "RTC Demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "webpack serve --config webpack.config.js --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "eslintIgnore": [
+    "node_modules/",
+    "dist/",
+    "lib/",
+    ".rpt2_cache/"
+  ],
+  "prettier": {
+    "singleQuote": true
+  }
+}
